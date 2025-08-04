@@ -21,7 +21,7 @@ main{
 
 section#login{
     background-color:#FFF7ED;
-    width: 200px;
+    width: 250px;
     height: 500px;
     border-radius: 8px;
     overflow: hidden;
@@ -47,3 +47,8 @@ section#login div#form{
     padding: 10px;
     display: block;
 }
+
+input.caixa-texto{
+    border-radius: 20px;
+}
+

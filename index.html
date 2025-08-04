@@ -5,19 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <main>
         <section id="login">
-            <!-- Imagem coloca pelo css -->
+            <!-- Imagem no css -->
             <div id="img">
             </div>
             <div id="form">
                 <h1>Vibe Tribal</h1>
-                <h2>Seja Bem-vindo de volta!</h2>
-                <form action="login.php" method="post">
+                <p>Seja Bem-vindo de volta!</p>
 
-            </div>
+                <form action="login.php" method="post">
+                    <div class="input-icon">
+                        <i class="fas fa-user"></i>
+                        <p><label for="inome">Email: <input class="caixa-texto" type="text" name="nome" id="inome" placeholder="Email"></p></label>
+                    </div>
+
+                    <p><label for="isenha">Senha:<input class="caixa-texto"  type="password" name="senha" id="isenha" placeholder="Senha"></p></label>
+                    
+
+                    <p><input type="submit" value="Enviar"></p>
+
+                    </div>
                 </form>
         </section>
     </main>
