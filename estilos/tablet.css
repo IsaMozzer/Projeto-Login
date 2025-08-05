@@ -1,7 +1,7 @@
 /* TELA DE TABLET */
 @charset "UTF-8";
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 600px){
     body, html{
         background-image: linear-gradient(to bottom, #221236, #3D245C,  #6d4a97,  #7f5fa6);
     }
