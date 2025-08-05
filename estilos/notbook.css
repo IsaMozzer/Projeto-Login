@@ -1,0 +1,25 @@
+/* TELA NOTBOOK */
+@charset "UTF-8";
+
+@media screen and (min-width: 900px){
+      body, html{
+        background-image: linear-gradient(to right, #221236, #3D245C,  #6d4a97,  #7f5fa6);
+    }
+
+    section#login{
+        width: 90vw;
+    }
+
+    section#login > div#img{
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    section#login > div#form{
+        float: right;
+        width: 60%;
+        margin-top: 90px;
+    }
+
+}

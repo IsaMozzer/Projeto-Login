@@ -6,6 +6,7 @@
     <title>Tela Login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/tablet.css">
+    <link rel="stylesheet" href="estilos/notbook.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -20,15 +21,16 @@
 
                 <form action="login.php" method="post">
 
-                    <div class="caixa-icon">
-                        <i class="fas fa-user"></i>
-                        <label for="inome"><input class="caixa-texto" type="text" name="nome" id="inome" placeholder="E-mail"></label>
-                    </div>
-
-                    <div class="caixa-icon">
-                        <i class="fas fa-lock"></i>
-                        <label for="isenha"><input class="caixa-texto"  type="password" name="senha" id="isenha" placeholder="Senha"></label>
+                    <div class="container">
+                        <div class="caixa-icon">
+                            <i class="fas fa-user"></i>
+                            <label for="inome"><input class="caixa-texto" type="text" name="nome" id="inome" placeholder="E-mail"></label>
+                        </div>
+                        <div class="caixa-icon">
+                            <i class="fas fa-lock"></i>
+                            <label for="isenha"><input class="caixa-texto"  type="password" name="senha" id="isenha" placeholder="Senha"></label>
                         
+                        </div>
                     </div>
 
                     <p><input class="botao" type="submit" value="Enviar"></p>
