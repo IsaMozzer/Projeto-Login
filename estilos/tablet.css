@@ -1,0 +1,7 @@
+/* TELA DE TABLET */
+
+@media screen and (min-width:  10px) and (max-width: 888px) {
+    section#login{
+        width: 90vw;
+    }
+}
